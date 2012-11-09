@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Ignore bundler config
 /.bundle
@@ -16,3 +17,16 @@ doc/
 .DS_Store
 .idea
 
+=======
+.bundle	
+db/*.sqlite3
+log/*.log
+tmp/
+tmp/*
+tmp/**/*
+doc/api
+doc/app
+*.swp
+*~
+.DS_Store
+>>>>>>> 589d26e141cc87bbd7637c14b9cd32102494433c
