@@ -48,19 +48,11 @@ FirstApp::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-<<<<<<< HEAD
   # root :to => 'welcome#index'
-=======
-  # root :to => "welcome#index"
->>>>>>> 589d26e141cc87bbd7637c14b9cd32102494433c
 
   # See how all your routes lay out with "rake routes"
 
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
-<<<<<<< HEAD
   # match ':controller(/:action(/:id))(.:format)'
-=======
-  # match ':controller(/:action(/:id(.:format)))'
->>>>>>> 589d26e141cc87bbd7637c14b9cd32102494433c
 end

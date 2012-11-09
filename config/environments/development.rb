@@ -2,13 +2,8 @@ FirstApp::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
   # In the development environment your application's code is reloaded on
-<<<<<<< HEAD
   # every request. This slows down response time but is perfect for development
   # since you don't have to restart the web server when you make code changes.
-=======
-  # every request.  This slows down response time but is perfect for development
-  # since you don't have to restart the webserver when you make code changes.
->>>>>>> 589d26e141cc87bbd7637c14b9cd32102494433c
   config.cache_classes = false
 
   # Log error messages when you accidentally call methods on nil.
@@ -16,10 +11,6 @@ FirstApp::Application.configure do
 
   # Show full error reports and disable caching
   config.consider_all_requests_local       = true
-<<<<<<< HEAD
-=======
-  config.action_view.debug_rjs             = true
->>>>>>> 589d26e141cc87bbd7637c14b9cd32102494433c
   config.action_controller.perform_caching = false
 
   # Don't care if the mailer can't send
@@ -30,7 +21,6 @@ FirstApp::Application.configure do
 
   # Only use best-standards-support built into browsers
   config.action_dispatch.best_standards_support = :builtin
-<<<<<<< HEAD
 
   # Raise exception on mass assignment protection for Active Record models
   config.active_record.mass_assignment_sanitizer = :strict
@@ -45,7 +35,3 @@ FirstApp::Application.configure do
   # Expands the lines which load the assets
   config.assets.debug = true
 end
-=======
-end
-
->>>>>>> 589d26e141cc87bbd7637c14b9cd32102494433c
